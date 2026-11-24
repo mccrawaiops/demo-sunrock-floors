@@ -20,8 +20,6 @@
   --logo-h:56px;
   --logo-max-w:300px;
   --ribbon:#3f2a1d;
-  --font-head:Georgia,"Iowan Old Style","Times New Roman",serif;
-  --font-body:system-ui,-apple-system,"Segoe UI",sans-serif;
   --header-h:calc(var(--logo-h) + 1.5rem);
 }
 *,*::before,*::after{box-sizing:border-box}
@@ -295,3 +293,5 @@ blockquote.review{margin:0}
   *,*::before,*::after{animation:none !important;transition:none !important}
   .hero-bleed .hero-media img{transform:none}
 }
+
+:root{--font-head:'Source Serif 4', Georgia, "Times New Roman", serif;--font-body:'Outfit', system-ui, -apple-system, sans-serif;}
