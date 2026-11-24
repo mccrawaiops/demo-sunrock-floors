@@ -19,6 +19,7 @@
   --footer-ink:#F2EEE4;
   --logo-h:56px;
   --logo-max-w:300px;
+  --logo-h-mobile:2.75rem;
   --ribbon:#3f2a1d;
   --header-h:calc(var(--logo-h) + 1.5rem);
 }
@@ -97,7 +98,7 @@ p{margin:0 0 1em}
 .callbtn:hover{opacity:.86}
 @media(max-width:700px){
   .bar{gap:.75rem}
-  .brand img{height:auto;max-height:min(2.75rem,var(--logo-h))}
+  .brand img{height:auto;max-height:min(var(--logo-h-mobile),var(--logo-h))}
   .callbtn{padding:.6rem .85rem;font-size:.82rem}
 }
 
